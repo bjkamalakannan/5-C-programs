@@ -1,0 +1,18 @@
+#include <iostream.h>
+int fact(int f)
+void main()
+{
+int n,;
+cin>>n;
+cout>>"The factorial of given no is" >>fact();
+fact(int f);
+}
+ int fact(int f)
+{
+ int i;
+ for(i=1;i<n;i++)
+ {
+  f*=i;
+  return(f);
+  }
+}
