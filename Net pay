@@ -1,0 +1,36 @@
+#iclude <iostream.h>
+class employee
+{
+private:
+    int empno;
+    char ename [20];
+    float basic,netpay,hra,da;
+float calculate()
+{
+  float netpay;
+  netpay=basic+da+hra;
+  reuturn netpay;
+  }
+public:
+ void havedata()
+  {
+   cout<<"\n enter the ename,empno,basic,da,hra..";
+   cin>>ename>>empno>>basic>>da>>hra;
+   netpay=calculate();
+   }
+ void dispdata()
+ {
+  cout<<"\n employee name  : "<<ename;
+  cout<<"\n employee no    : "<<empno;
+  cout<<"\n employee bp    : "<<basic;
+  cout<<"\n employee da    : "<<da;
+  cout<<"\n employee hra   : "<<hra;
+  cout<<"\n employee np    : "<<netpay;
+  }
+  };
+  void main()
+  {
+  employee emp;
+  emp.havedata();
+  emp.dispdata();
+  }
