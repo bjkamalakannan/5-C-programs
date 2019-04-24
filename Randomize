@@ -1,0 +1,12 @@
+#include<iostream.h>
+void main()
+{
+ randomize();
+ int n,i;
+ cin>>n;
+ p=random(11); 
+ for(int p; p<=n; p++)
+ {
+  cout<<"\t"<<"*";
+ }
+ }
